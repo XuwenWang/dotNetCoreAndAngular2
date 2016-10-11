@@ -53,3 +53,33 @@ Now run the task in Task Runner Explorer:
 You’ll find all the files are copied to wwwroot/lib and added to the project:
 
 ![alt tag](https://github.com/XuwenWang/dotNetCoreAndAngular2/blob/master/src/dotNetCoreAndAngular2/wwwroot/images/12.png)
+
+Next let’s change the layout view to include the javascript files. Find _Layout.cshtml in Views/Shared and make the changes like below:
+
+![alt tag](https://github.com/XuwenWang/dotNetCoreAndAngular2/blob/master/src/dotNetCoreAndAngular2/wwwroot/images/13.png)
+
+Create system.config.js file in wwwroot/js folder:
+
+![alt tag](https://github.com/XuwenWang/dotNetCoreAndAngular2/blob/master/src/dotNetCoreAndAngular2/wwwroot/images/14.png)
+
+Now everything is set up for us to write our Angular 2 application with type script. Create new type script files in folder wwwroot/js:
+
+app.component.ts:
+
+
+![alt tag](https://github.com/XuwenWang/dotNetCoreAndAngular2/blob/master/src/dotNetCoreAndAngular2/wwwroot/images/15.png)
+
+app.module.ts:
+
+![alt tag](https://github.com/XuwenWang/dotNetCoreAndAngular2/blob/master/src/dotNetCoreAndAngular2/wwwroot/images/16.png)
+
+main.ts:
+
+![alt tag](https://github.com/XuwenWang/dotNetCoreAndAngular2/blob/master/src/dotNetCoreAndAngular2/wwwroot/images/17.png)
+![alt tag](https://github.com/XuwenWang/dotNetCoreAndAngular2/blob/master/src/dotNetCoreAndAngular2/wwwroot/images/18.png)
+
+Upon saving all the typescript files will be transcompiled into js automatically. 
+Now if you press F5 run your application, the Angular 2 single page application is up!
+
+![alt tag](https://github.com/XuwenWang/dotNetCoreAndAngular2/blob/master/src/dotNetCoreAndAngular2/wwwroot/images/19.png)
+
