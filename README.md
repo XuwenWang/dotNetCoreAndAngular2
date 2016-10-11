@@ -76,6 +76,7 @@ app.module.ts:
 main.ts:
 
 ![alt tag](https://github.com/XuwenWang/dotNetCoreAndAngular2/blob/master/src/dotNetCoreAndAngular2/wwwroot/images/17.png)
+
 ![alt tag](https://github.com/XuwenWang/dotNetCoreAndAngular2/blob/master/src/dotNetCoreAndAngular2/wwwroot/images/18.png)
 
 Upon saving all the typescript files will be transcompiled into js automatically. 
