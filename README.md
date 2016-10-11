@@ -1,5 +1,4 @@
-# dotNetCoreAndAngular2
-.Net Core web application with Angular 2 and type script
+# .Net Core And Angular 2 with typescript
 
 This project demos how to create a .Net Core web application with Angular 2 from scratch.
 First create an ASP.Net Core Web Application like below:
