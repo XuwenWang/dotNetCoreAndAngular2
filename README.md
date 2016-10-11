@@ -57,6 +57,10 @@ Next let’s change the layout view to include the javascript files. Find _Layou
 
 ![alt tag](https://github.com/XuwenWang/dotNetCoreAndAngular2/blob/master/src/dotNetCoreAndAngular2/wwwroot/images/13.png)
 
+Change your index.cshtml in views/home:
+
+![alt tag](https://github.com/XuwenWang/dotNetCoreAndAngular2/blob/master/src/dotNetCoreAndAngular2/wwwroot/images/20.png)
+
 Create system.config.js file in wwwroot/js folder:
 
 ![alt tag](https://github.com/XuwenWang/dotNetCoreAndAngular2/blob/master/src/dotNetCoreAndAngular2/wwwroot/images/14.png)
